@@ -1,0 +1,12 @@
+package org.codekit;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CodeKitsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CodeKitsApplication.class, args);
+	}
+}
